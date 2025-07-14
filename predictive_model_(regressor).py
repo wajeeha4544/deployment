@@ -13,9 +13,7 @@ import pandas as pd
 from sklearn.ensemble import RandomForestRegressor
 import lightgbm as lgb
 import seaborn as sns
-!pip3 install streamlit
 import streamlit as st
-!pip3 install joblib
 import joblib
 from sklearn.metrics import mean_squared_error
 from sklearn.model_selection import train_test_split
